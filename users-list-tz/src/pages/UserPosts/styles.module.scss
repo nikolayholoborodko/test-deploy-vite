@@ -1,0 +1,23 @@
+.userPosts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  border: 1px solid #dcdde1;
+  border-radius: 6px;
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &__body {
+    color: #718093;
+    font-size: 12px;
+  }
+}

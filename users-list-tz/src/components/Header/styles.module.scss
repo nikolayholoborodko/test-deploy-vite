@@ -1,0 +1,10 @@
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fdcb6e;
+  &__title {
+    color: #2f3640;
+    font-size: 30px;
+  }
+}

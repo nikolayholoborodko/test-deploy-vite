@@ -1,0 +1,19 @@
+.userAlbums {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  border: 1px solid #dcdde1;
+  border-radius: 6px;
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
